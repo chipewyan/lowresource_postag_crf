@@ -52,7 +52,9 @@ With around 10k tokens, the F1 score would be somewhere up on 80%.
 
 The `Accuracy` is calculated as:
 
-<img src="https://latex.codecogs.com/gif.latex?\dfrac{\mathrm{number&tilde;of&tilde;correct&tilde;predictions}}{\mathrm{Total&tilde;number&tilde;of&tilde;predictions}}" />
+<img src=
+"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cdfrac%7B%5Cmathrm%7BCP%7D%7D%7BN%7D" 
+alt="\dfrac{\mathrm{CP}}{N}">
 
 The `Precision` is calculated as:
 $$ \dfrac{\mathrm{number&tilde;of&tilde;correctly&tilde;predicted&tilde;X}}{\mathrm{number&tilde;of&tilde;X&tilde;predicted}}, $$
