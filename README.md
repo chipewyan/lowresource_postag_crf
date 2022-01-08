@@ -54,14 +54,28 @@ The `Accuracy` is calculated as:
 
 <img src=
 "https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cdfrac%7B%5Cmathrm%7BCP%7D%7D%7BN%7D" 
-alt="\dfrac{\mathrm{CP}}{N}">
+alt="\dfrac{\mathrm{CP}}{N}">,
+
+where CP (Correctly Predicted) is the number of correct predictions, and 
+N is the number of samples predicted.
 
 The `Precision` is calculated as:
-$$ \dfrac{\mathrm{number&tilde;of&tilde;correctly&tilde;predicted&tilde;X}}{\mathrm{number&tilde;of&tilde;X&tilde;predicted}}, $$
-where $X$ is a label.
+
+<img src=
+"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cdfrac%7B%5Cmathrm%7BLCP%7D%7D%7B%5Cmathrm%7BLP%7D%7D" 
+alt="\dfrac{\mathrm{LCP}}{\mathrm{LP}}">
+
+where LCP (Label Correctly Predicted) is the number of the label predicted correctly (i.e., TP: true positives),
+and LP (Label predicted) is the number of predicted samples with the label (i.e., TP + FP: true positives and false positives)
 
 The `Recall` is calculated as:
-$$ \dfrac{\mathrm{#~of~correctly~predicted~X}}{\mathrm{#~of~X}} $$
+<img src=
+"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cdfrac%7B%5Cmathrm%7BLCP%7D%7D%7B%5Cmathrm%7BL%7D%7D" 
+alt="\dfrac{\mathrm{LCP}}{\mathrm{L}}">
+
+where L is the number of samples actually with the label (i.e., TP + FN: true positives and false negatives).
 
 The `F1 score` is calculated as:
-$$ \dfrac{2 \cdot \mathrm{Precision} \cdot \mathrm{Recall}}{\mathrm{Precision} + \mathrm{Recall}} $$
+<img src=
+"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cdfrac%7B2+%5Ccdot+%5Cmathrm%7BPrecision%7D+%5Ccdot+%5Cmathrm%7BRecall%7D%7D%7B%5Cmathrm%7BPrecision%7D+%2B+%5Cmathrm%7BRecall%7D%7D" 
+alt="\dfrac{2 \cdot \mathrm{Precision} \cdot \mathrm{Recall}}{\mathrm{Precision} + \mathrm{Recall}}">
