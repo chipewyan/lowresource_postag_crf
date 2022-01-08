@@ -51,7 +51,8 @@ With the raw data with around 1k tokens, the F1 score would be somewhere on 70%.
 With around 10k tokens, the F1 score would be somewhere up on 80%.
 
 The `Accuracy` is calculated as:
-<img src="https://latex.codecogs.com/gif.latex?\dfrac{\mathrm{#~of~correct~predictions}}{\mathrm{Total~#~of~predictions}}">
+
+<img src="https://latex.codecogs.com/gif.latex?\dfrac{\mathrm{#~of~correct~predictions}}{\mathrm{Total~#~of~predictions}}" />
 
 The `Precision` is calculated as:
 $$ \dfrac{\mathrm{#~of~correctly~predicted~X}}{\mathrm{#~of~X~predicted}}, $$
