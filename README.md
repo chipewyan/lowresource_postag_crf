@@ -56,8 +56,8 @@ The `Accuracy` is calculated as:
 "https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cdfrac%7B%5Cmathrm%7BCP%7D%7D%7BN%7D" 
 alt="\dfrac{\mathrm{CP}}{N}">,
 
-where CP (Correctly Predicted) is the number of correct predictions, and 
-N is the number of samples predicted.
+where CP (Correctly Predicted) is the number of correct predictions (i.e., TP + TN: true positives and true negatives), and 
+N is the number of samples (i.e., TP + TN + FP + FN: everything).
 
 The `Precision` is calculated as:
 
